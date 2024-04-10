@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    border-style: outset;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border-style: outset;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    border-style: outset;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(21, 185, 48);
+    padding: 10px 20px 0px;
+    border-style: outset;
+}
+.header {
+   background-color: rgb(21, 185, 48);
+    min-height: 100px;
+    border-style: outset;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    border-style: outset;
+}
+.footer {
+    background-color: rgb(21, 185, 48);
+    min-height: 150px;
+    border-style: outset;
+}
